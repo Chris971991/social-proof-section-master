@@ -14,106 +14,88 @@
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    <!-- Main Content Container -->
-    <main>
-      <!-- Top Section Content Container -->
-      <section class="hero">
-        <!-- Top Left Section Content Container -->
-        <div class="top-left">
-          <h1>10,000&plus; of our <br />users love our <br />products.</h1>
-          <p>
-            We only provide great products combined with excellent
-            <br />customer service. See what our satisfied customers are <br />
-            saying about our services.
+    <main class="container">
+      <div class="container-top">
+        <div class="container-top__left">
+          <h1 class="container-top__heading">
+            10,000+ of our users love our products.
+          </h1>
+          <p class="container-top__desc">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
           </p>
         </div>
-        <!-- Top Right Section Content Container -->
-        <div class="top-right">
-          <div class="rating-1">
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <h2>Rated 5 Stars in Reviews</h2>
+        <div class="container-top__right">
+          <div class="rating">
+            <div class="rating__rating-box"></div>
+            <h3 class="rating__desc">Rated 5 Stars in Reviews</h3>
           </div>
-          <div class="rating-2">
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <h2>Rated 5 Stars in Report Guru</h2>
+          <div class="rating">
+            <div class="rating__rating-box"></div>
+            <h3 class="rating__desc">Rated 5 Stars in Report Guru</h3>
           </div>
-          <div class="rating-3">
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <img src="./images/icon-star.svg" alt="star" />
-            <h2>Rated 5 Stars in BestTech</h2>
+          <div class="rating">
+            <div class="rating__rating-box"></div>
+            <h3 class="rating__desc">Rated 5 Stars in BestTech</h3>
           </div>
         </div>
-      </section>
-      <!-- Bottom Section Content Container -->
-      <section class="testimonials">
-        <div class="col-1">
-          <div class="col-header">
-            <img src="./images/image-colton.jpg" alt="Colt" />
-            <div class="col-name">
-              <h2>Colton Smith</h2>
-              <h3>Verified Buyer</h3>
+      </div>
+      <div class="container-bottom">
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="testimonial-info">
+              <div
+                class="testimonial-avatar"
+                style="background-image: url(./images/image-colton.jpg)"
+              ></div>
+              <div class="testimonial-info__text">
+                <p class="testimonial-info-user__name">Colton Smith</p>
+                <p class="testimonial-info-user__desc">Verified Buyer</p>
+              </div>
             </div>
-          </div>
-          <div class="col-footer">
-            <p>
-              "We needed the same printed design as the one we had ordered a
+            <p class="testimonial-text">
+              “ We needed the same printed design as the one we had ordered a
               week prior. Not only did they find the original order, but we also
-              received it in time. Excellent!"
+              received it in time. Excellent! ”
             </p>
           </div>
-        </div>
-        <div class="col-2">
-          <div class="col-header">
-            <img src="./images/image-irene.jpg" alt="Colt" />
-            <div class="col-name">
-              <h2>Irene Roberts</h2>
-              <h3>Verified Buyer</h3>
+          <div class="testimonial">
+            <div class="testimonial-info">
+              <div
+                class="testimonial-avatar"
+                style="background-image: url(./images/image-irene.jpg)"
+              ></div>
+              <div class="testimonial-info__text">
+                <p class="testimonial-info-user__name">Irene Roberts</p>
+                <p class="testimonial-info-user__desc">Verified Buyer</p>
+              </div>
             </div>
-          </div>
-          <div class="col-footer">
-            <p>
-              "Customer service is always excellent and very quick turn around.
+            <p class="testimonial-text">
+              “ Customer service is always excellent and very quick turn around.
               Completely delighted with the simplicity of the purchase and the
-              speed of delivery."
+              speed of delivery.”
             </p>
           </div>
-        </div>
-        <div class="col-3">
-          <div class="col-header">
-            <img src="./images/image-anne.jpg" alt="Colt" />
-            <div class="col-name">
-              <h2>Anne Wallace</h2>
-              <h3>Verified Buyer</h3>
+          <div class="testimonial">
+            <div class="testimonial-info">
+              <div
+                class="testimonial-avatar"
+                style="background-image: url(./images/image-anne.jpg)"
+              ></div>
+              <div class="testimonial-info__text">
+                <p class="testimonial-info-user__name">Anne Wallace</p>
+                <p class="testimonial-info-user__desc">Verified Buyer</p>
+              </div>
             </div>
-          </div>
-          <div class="col-footer">
-            <p>
-              "Put an order with this company and can only praise them for the
+            <p class="testimonial-text">
+              “ Put an order with this company and can only praise them for the
               very high standard. Will definitely use them again and recommend
-              them to everyone!"
+              them to everyone! ”
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </main>
-    <!--
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>-->
   </body>
 </html>

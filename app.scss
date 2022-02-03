@@ -258,10 +258,16 @@ body {
       height: 78px;
       padding: 10px;
 
+      .rating-box {
+        display: flex;
+        margin-left: 0;
+      }
+
       &__desc {
         margin: 0;
         text-align: center;
         font-size: 15px;
+        margin-left: 0;
       }
     }
   }
@@ -293,6 +299,12 @@ body {
     margin-top: 80px;
     &__heading {
       line-height: 32px;
+    }
+
+    .rating {
+      &__desc {
+        margin-left: 0;
+      }
     }
   }
 

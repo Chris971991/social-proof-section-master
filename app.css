@@ -52,7 +52,7 @@ body {
 .container-top__heading {
   margin-bottom: 10px;
   color: #502050;
-  font-size: 47px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 48px;
 }
@@ -69,8 +69,8 @@ body {
 .container-top__right {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 24px 24px auto 24px 24px;
-      grid-template-columns: 24px 24px auto 24px 24px;
+  -ms-grid-columns: 47.75px 47.75px auto 47.75px 47.75px;
+      grid-template-columns: 47.75px 47.75px auto 47.75px 47.75px;
   grid-row-gap: 16px;
   width: 100%;
   max-width: 540px;

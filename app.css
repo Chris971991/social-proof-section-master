@@ -23,7 +23,7 @@ p {
 
 .container {
   max-width: 1110px;
-  margin: auto;
+  margin: 0 165px;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 127px;
 }
 
 .container-top__left {
@@ -140,7 +140,7 @@ body {
   -ms-grid-rows: 16px 16px auto 16px 16px;
       grid-template-rows: 16px 16px auto 16px 16px;
   grid-column-gap: 30px;
-  margin-bottom: 115px;
+  margin-bottom: 110px;
 }
 
 .container-bottom .testimonial {

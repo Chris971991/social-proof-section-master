@@ -91,7 +91,7 @@ body {
     height: 56px;
     align-items: center;
     background-color: $light_grayish_magenta;
-    border-radius: 5px;
+    border-radius: 8px;
 
     &:first-child {
       grid-column: 1 / 4;
@@ -121,7 +121,7 @@ body {
       font-size: 13px;
       line-height: 15px;
       color: $very_dark_magenta;
-      margin-left: 32px;
+      margin-left: 28px;
     }
   }
 }
@@ -166,14 +166,15 @@ body {
       &-user__name {
         font-weight: 700;
         font-size: 13px;
-        line-height: 20px;
+        line-height: 15px;
         color: white;
+        margin-bottom: 5px;
       }
 
       &-user__desc {
         font-weight: 400;
         font-size: 13px;
-        line-height: 20px;
+        line-height: 15px;
         color: $soft_pink;
       }
     }

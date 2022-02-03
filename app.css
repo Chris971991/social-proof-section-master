@@ -88,7 +88,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f7f2f7;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .container-top .rating:first-child {
@@ -129,7 +129,7 @@ body {
   font-size: 13px;
   line-height: 15px;
   color: #502050;
-  margin-left: 32px;
+  margin-left: 28px;
 }
 
 .container-bottom {
@@ -188,14 +188,15 @@ body {
 .container-bottom .testimonial-info-user__name {
   font-weight: 700;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 15px;
   color: white;
+  margin-bottom: 5px;
 }
 
 .container-bottom .testimonial-info-user__desc {
   font-weight: 400;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 15px;
   color: #ee68a4;
 }
 

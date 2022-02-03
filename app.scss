@@ -55,6 +55,7 @@ body {
 
   &__left {
     width: 100%;
+    max-width: 445px;
   }
 
   &__heading {
@@ -77,7 +78,7 @@ body {
   &__right {
     display: grid;
     grid-template-columns: 50px 50px auto 50px 50px;
-    grid-row-gap: 20px;
+    grid-row-gap: 16px;
     width: 100%;
     max-width: 540px;
   }
@@ -111,10 +112,10 @@ body {
 
     &__desc {
       font-weight: 700;
-      font-size: 15px;
+      font-size: 13px;
       line-height: 25px;
       color: $very_dark_magenta;
-      margin-left: 20px;
+      margin-left: 32px;
     }
   }
 }
@@ -126,8 +127,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 16px 16px auto 16px 16px;
-    gap: 30px;
-    margin-bottom: 100px;
+    grid-column-gap: 30px;
+    margin-bottom: 115px;
   }
 
   .testimonial {
@@ -279,6 +280,7 @@ body {
 
     .testimonial {
       max-width: 100%;
+      margin-bottom: 30px;
 
       &-text {
         font-size: 13px;

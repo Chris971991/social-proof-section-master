@@ -52,7 +52,7 @@ body {
 .container-top__heading {
   margin-bottom: 10px;
   color: #502050;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 48px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .container-bottom {
-  margin-top: 72px;
+  margin-top: 73px;
 }
 
 .container-bottom .testimonials {
@@ -207,7 +207,7 @@ body {
   color: white;
   line-height: 20px;
   margin-top: 26px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
 }
 

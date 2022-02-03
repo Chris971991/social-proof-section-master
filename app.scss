@@ -39,7 +39,8 @@ p {
 // Begin Styles
 .container {
   max-width: 1110px;
-  margin: 0 165px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 body {
   background: url("./images/bg-pattern-top-desktop.svg") no-repeat top left,

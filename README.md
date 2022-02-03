@@ -47,7 +47,7 @@ Users should be able to:
 ## Author
 
 - Website - [Christopher Carruthers](https://github.com/Chris971991)
-- Frontend Mentor - [@carrumbum](https://www.frontendmentor.io/profile/carrumbum)
+- Frontend Mentor - [@Chris971991](https://www.frontendmentor.io/profile/Chris971991)
 
 ## Acknowledgments
 

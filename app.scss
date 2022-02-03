@@ -64,6 +64,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
+    letter-spacing: -1.71429px;
   }
 
   &__desc {
@@ -72,6 +73,7 @@ body {
     letter-spacing: -0.5px;
     line-height: 25px;
     font-weight: 500;
+    letter-spacing: -0.5px;
     color: $dark_grayish_magenta;
   }
 
@@ -109,7 +111,7 @@ body {
         margin-right: 8.45px;
 
         :last-child {
-          margin-right: 32.45px;
+          margin-right: 32px;
         }
       }
     }
@@ -117,7 +119,7 @@ body {
     &__desc {
       font-weight: 700;
       font-size: 13px;
-      line-height: 25px;
+      line-height: 15px;
       color: $very_dark_magenta;
       margin-left: 32px;
     }
@@ -186,10 +188,11 @@ body {
 
     &-text {
       color: white;
-      line-height: 20px;
+      line-height: 22px;
       margin-top: 26px;
       font-size: 13px;
-      font-weight: 400;
+      font-weight: 500;
+      letter-spacing: -0.232143px;
     }
   }
 }

@@ -69,8 +69,8 @@ body {
 .container-top__right {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 47.75px 47.75px auto 47.75px 47.75px;
-      grid-template-columns: 47.75px 47.75px auto 47.75px 47.75px;
+  -ms-grid-columns: 47.5px 47.5px auto 47.5px 47.5px;
+      grid-template-columns: 47.5px 47.5px auto 47.5px 47.5px;
   grid-row-gap: 16px;
   width: 100%;
   max-width: 540px;
